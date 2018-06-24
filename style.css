@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+}
+
+.pimg1 {
+	position: relative;
+	opacity: 0.70;
+	background-position:50px 50px center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	/*fixed = parallax
+	scroll = normal*/
+
+	background-attachment: fixed;
+}
+
+.pimg1 {
+	background-image: url(https://www.mensjournal.com/wp-content/uploads/mf/bentover.jpg?w=1600);
+	min-height: 100%;
+}	
+
+.ptext {
+	font-family: 'IM Fell English SC', serif;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 64px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-shadow: 1px 2px white;
+	}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: blue;
+	text-shadow: 1px 1px white;
+	margin-top: 10px; 
+	margin-right: 30px;
+	padding: 10px;
+}
+
+.nav a:hover {
+	outline: 1px solid white;
+}
+
+.wrapper {
+	/*outline: 1px solid red; 	*/
+	margin: 10px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.card1,
+.card2,
+.card3 {
+	display: flex;
+	padding: 15px 15px 0px 15px; 
+	flex-direction: column;
+	/*outline: 1px solid blue;*/
+	height: 550px;
+	background-color: white;
+}
+
+.card1,
+.card2,
+.card3 p {
+	font-size: 18px;
+}
+
+.section1 {
+	background-color: #e7e2e1;
+	background: linear-gradient(to left, #e7e2e1, #2d2c2b);
+}
+
+.section1 .h1  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px; 	
+	font-family: 'Playfair Display', serif;
+}
+
+.section1 h1 {
+	margin: 18px;
+}
+
+.section2 {
+	background-image: url(https://www.healthline.com/hlcmsresource/images/topic_centers/Fitness-Exercise/5Min-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	margin: 10px;
+	position: relative;
+}
+
+.client-offer {
+	text-decoration: none;
+	color: #071188;
+}
+
+.offer-wrapper {
+	position: absolute;
+	top: 65px;
+	left: 100px; 
+}
+
+.colored1,
+.colored2,
+.colored3 {
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid white;
+	border-radius: 10px;
+	height: 50px;
+	width: 150px;
+	font-size: 27px;
+	background-color: #85b38c;
+
+    transform: rotate(-15deg);
+}
+
+.footer {
+	margin-top: 30px;
+	background-color: #2d2c2b;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	color: white;
+}
