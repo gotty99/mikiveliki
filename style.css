@@ -437,9 +437,10 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		max-width: 330px;
-
 	}
+	.pic-wrapper img {
+		width: 100%
+	}		
 /*Ends here	*/
 	
 	.media {
