@@ -32,7 +32,7 @@ body {
 .ptext {
 	font-family: 'IM Fell English SC', serif;
 	position: absolute;
-	top: 50%;
+	top: 75%;
 	width: 100%;
 	text-align: center;
 	color: #000;
@@ -42,10 +42,42 @@ body {
 	text-shadow: 1px 2px white;
 	}
 
+.nav-wrapper {
+	display: flex;
+	justify-content: center;
+
+}
+
 .nav {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 10px;
+}
+
+.contact-info {
+	position: fixed;
+	display: none;
+}
+
+.contact:hover .contact-info {
+	display: block;
+	margin: 0;
+	background-color: #b80000;
+	padding: 10px;
+	position: absolute;
+	right: 175px;
+	margin-top: 20px;	
+	border: 2px solid white;
+	border-radius: 12px;
+	text-align: center;
+	font-size: 22px;
+	font-family: serif;	
+	color: white;
+	/*text-shadow: 1px 1px red;*/
+}
+
+.contact:hover .contact-info h4 {
+	font-family: 'IM Fell English SC', serif;
 }
 
 .logo {
@@ -330,7 +362,6 @@ body {
 	text-align: justify;
 	padding: 0 10px;
 	font-size: 18px;
-	/*height: 50%;*/
 	/*outline: 1px solid green;*/
 }
 
