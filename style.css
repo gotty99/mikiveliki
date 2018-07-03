@@ -506,6 +506,12 @@ body {
 		align-items: center;
 		font-size: 34px;
 	}
+	.contact:hover .contact-info {
+		right: 31%;
+		margin-top: 5px;
+		border-radius: 35px;
+		font-size: 12px;
+	}
 }
 
 /* Landscape */
@@ -583,5 +589,11 @@ body {
 		color: #b80000;
 		text-shadow: none;
 		font-size: 30px;
+	}
+	.contact:hover .contact-info {
+		right: 42%;
+		margin-top: 5px;
+		border-radius: 35px;
+		font-size: 12px;
 	}
 }
